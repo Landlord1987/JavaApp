@@ -37,6 +37,10 @@ public class Main {
 
         myMethod3(w);
 
+        int h;
+        System.out.println("Введите h: "); h = console.nextInt();
+        System.out.println(myMethod4(h));
+
 
     }
 
@@ -51,7 +55,10 @@ public class Main {
     static void myMethod3 (int w){
         if (w >= 0) {System.out.println("Число положительное");}
         else System.out.println("Число отрицательное");
+    }
 
+    static boolean myMethod4 (int h){
+        return h < 0;
     }
 
 }
