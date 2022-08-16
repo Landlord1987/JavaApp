@@ -42,6 +42,8 @@ public class Main {
         System.out.println(myMethod4(h));
 
 
+        System.out.println("Введите Ваше имя: "); String name = console.next();
+        myMethod5(name);
     }
 
     static float myMethod (float a, float b, float c, float d){
@@ -61,4 +63,7 @@ public class Main {
         return h < 0;
     }
 
+    static void myMethod5 (String name) {
+        System.out.println("Привет, " + name);
+    }
 }
