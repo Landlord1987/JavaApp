@@ -1,5 +1,6 @@
 package HomeWork1;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -27,11 +28,22 @@ public class Main {
         float res = myMethod(a,b,c,d);
         System.out.println("–езультат: " + res);
 
+        int y,z;
+        System.out.println("¬ведите y: "); y = console.nextInt();
+        System.out.println("¬ведите z: "); z = console.nextInt();
+
+        boolean res2 = myMethod2(y,z);
+        System.out.println("Ёто " + res2 + " ,что результат y+z лежит в пределах от 10 до 20");
+
 
     }
 
     static float myMethod (float a, float b, float c, float d){
         return a * (b + (c/d));
+    }
+
+    static boolean myMethod2(int y, int z){
+        return (y + z) >= 10 && (y + z) <= 20;
     }
 
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e931a97-5a24-4f86-8006-57c8cfab640d" name="Changes" comment="The Second Task">
+    <list default="true" id="6e931a97-5a24-4f86-8006-57c8cfab640d" name="Changes" comment="The Third Task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeWork1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork1/Main.java" afterDir="false" />
     </list>
@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660670656240</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="The Third Task">
+      <created>1660672519559</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660672519559</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +111,7 @@
     <MESSAGE value="Init homework" />
     <MESSAGE value="The First Task" />
     <MESSAGE value="The Second Task" />
-    <option name="LAST_COMMIT_MESSAGE" value="The Second Task" />
+    <MESSAGE value="The Third Task" />
+    <option name="LAST_COMMIT_MESSAGE" value="The Third Task" />
   </component>
 </project>
