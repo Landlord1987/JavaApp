@@ -44,6 +44,9 @@ public class Main {
 
         System.out.println("Введите Ваше имя: "); String name = console.next();
         myMethod5(name);
+
+        System.out.println("Для определения принадлежности к високосному году, введите год: "); short year = console.nextShort();
+        leapYear(year);
     }
 
     static float myMethod (float a, float b, float c, float d){
@@ -66,4 +69,15 @@ public class Main {
     static void myMethod5 (String name) {
         System.out.println("Привет, " + name);
     }
+
+    static void leapYear (short year){
+        if (year%400 == 0) {
+            System.out.println("Год високосный");
+        } else if (year%100 == 0){
+            System.out.println("Год невисокосный");
+        } else if (year%4 == 0) {
+            System.out.println("Год високосный");
+        } else System.out.println("Год не високосный");
+    }
 }
+
